@@ -73,7 +73,7 @@ Distillation uses larger network to teach a smaller network.
 #### Discussion:
 - Matrix compression using singulat value decomposition (SVD) and tensor compression using Tucker decomposition.
 
-### 5. Bitwise Binary Convolution:
+### 5. Bitwise Binary Convolution: (XNORNet)
 #### Paper:
 [XNOR-Net: ImageNet Classification Using Binary Convolutional Neural Networks](https://arxiv.org/abs/1603.05279)
 #### Result:
