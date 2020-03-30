@@ -81,4 +81,7 @@ Distillation uses larger network to teach a smaller network.
 #### Discussion:
 - Efficient approximation of standard cnnusing bitwise binary weight networks. It would be easy to test upon VGG type of architecture.
 
-
+### 6. MIRACLE (Minimal Random Code Learning):
+#### Paper:
+[Minimal Random Code Learning: Getting Bits Back from Compressed Model Parameters](https://arxiv.org/abs/1810.00440)
+#### *Coming Up*
