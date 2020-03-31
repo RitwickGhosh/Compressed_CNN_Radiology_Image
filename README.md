@@ -62,8 +62,8 @@ Citation: http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 The main cnn was VGG16 with accuracy 84%. The distilled model shows the accuracy of 70-78%.
 ### Hinton Regression (Distillisation)
 ![Hinton Regression (Distillisation)](Distillation.png)
-Discussion: 
-Distillation uses larger network to teach a smaller network.
+#### Discussion:
+- Distillation uses larger network to teach a smaller network.
 
 ### 4. SVD and Tucker:
 #### Paper:
