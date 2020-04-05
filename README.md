@@ -48,18 +48,18 @@ Citation: http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 [Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding](https://arxiv.org/abs/1510.00149)
 #### Result:
 
-| Model_Inspired | Transfer Learning | Pruning Rate | Best Accuracy(%) | Parameters(M) |
-| --- | --- | --- | --- | --- |
-| VGG16 | Yes | 0.9 - 0.1 | 62.5 | 23 |
-| VGG16 | No | 0.9 - 0.1 | 64.1 | 14 |
+| Model_Inspired | Transfer Learning | Pruning Rate | Best Accuracy(%) | Parameters(M) | Acutal Acuuracy(%)
+| --- | --- | --- | --- | --- | --- |
+| VGG16 | Yes | 0.9 - 0.1 | 62.5 | 23 | 80 |
+| VGG16 | No | 0.9 - 0.1 | 64.1 | 14 | 70 |
 #### Discussion:
-- It uses pruning, trained quatization and huffman coding to compress cnn model. The rate is 5x to 30x approximately. But the low accuracy was not desired, but regarding it's compression rate, large cnn may be used, which will have better accuracy.
+- It uses pruning, trained quatization and huffman coding to compress cnn model. The rate is 5x to 30x approximately. But the low accuracy was not desired, but regarding it's compression rate, large CNN may be used, which will have better accuracy. Transfer learning enable CNN shows more accuracy. May be large made from scratch CNNs could be compressed using it, but not transfer learning models.
 
 ### 3. Distillation:
 #### Paper:
 [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
 #### Result: 
-The main cnn was VGG16 with accuracy 84%. The distilled model shows the accuracy of 70-78%.
+The main cnn was VGG16 with accuracy 84%. The distilled model shows the accuracy of 87%.
 ### Hinton Regression (Distillisation)
 ![Hinton Regression (Distillisation)](Distillation.png)
 #### Discussion:
