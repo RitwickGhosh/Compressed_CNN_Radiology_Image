@@ -59,7 +59,7 @@ Citation: http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 #### Paper:
 [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)
 #### Result: 
-The main cnn was VGG16 with accuracy 84%. The distilled model shows the accuracy of 87%.
+The main cnn was VGG16 with accuracy 84%. The distilled model shows the accuracy of 87% with 25x compression and 85% at 1189x compression.
 ### Hinton Regression (Distillisation)
 ![Hinton Regression (Distillisation)](Distillation.png)
 #### Discussion:
